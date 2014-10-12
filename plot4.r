@@ -16,7 +16,7 @@ png(file="plot4.png", width=480, height=480)
 par(mfrow = c(2,2))
 
 # Plot #1 (Upper Left): Global Active Power by DateTime
-plot(datasub$DateTime, datasub$Global_active_power, type = "l", xlab = "", ylab = "Global Active Power (kilowatts)")
+plot(datasub$DateTime, datasub$Global_active_power, type = "l", xlab = "", ylab = "Global Active Power")
 
 # Plot #2 (Upper Right): Voltage by DateTime
 plot(datasub$DateTime, datasub$Voltage, type = "l", xlab = "datetime", ylab = "Voltage")
